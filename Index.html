@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sowmya | Apple-Style Portfolio</title>
+  <style>
+    /* GLOBAL */
+    body { margin:0; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#f5f5f7; color:#1d1d1f; }
+    a { text-decoration:none; color:#0071e3; }
+
+    /* HEADER */
+    header {
+      background:#ffffff;
+      padding:25px 40px;
+      display:flex;
+      align-items:center;
+      gap:20px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    }
+    .apple-logo {
+      width:34px;
+      cursor:pointer;
+    }
+    .apple-logo:hover { opacity:0.7; }
+    .title-block h1 { margin:0; font-size:32px; font-weight:600; }
+    .title-block p { margin:6px 0 0; font-size:15px; color:#555; }
+
+    /* SECTIONS */
+    .section { padding:50px 8%; }
+    h2 { font-size:28px; margin-bottom:20px; font-weight:600; }
+
+    .card {
+      background:white;
+      padding:25px;
+      border-radius:18px;
+      margin-bottom:25px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    /* Skills */
+    .skill-grid { display:flex; flex-wrap:wrap; gap:12px; }
+    .skill {
+      background:#e8e8ed;
+      padding:10px 16px;
+      border-radius:12px;
+      font-size:14px;
+      font-weight:500;
+    }
+
+    /* Navigation to second page */
+    .nav-block { margin-top:10px; }
+    .nav-block a { font-weight:600; }
+
+    /* FOOTER */
+    footer {
+      text-align:center;
+      padding:30px;
+      font-size:14px;
+      color:#86868b;
+      margin-top:50px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER WITH APPLE LOGO LINKING TO PAGE 2 -->
+<header>
+  <a href="#accomplishments"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" class="apple-logo"></a>
+  <div class="title-block">
+    <h1>Sowmya Cherukupally</h1>
+    <p>Backend • AI/ML • Distributed Systems • Cloud • Data Pipelines • Full Stack Engineering</p>
+  </div>
+</header>
+
+<!-- PAGE 1: MAIN PROFILE -->
+<div class="section" id="home">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a Backend & AI/ML Evaluation Engineer with strong expertise across large-scale distributed systems,
+      cloud platforms, data engineering, scalable backend architectures, and intelligent automation.
+      I specialize in Python, Go, Java, AWS, Azure, GCP, Terraform, Kubernetes, Docker, CI/CD, and ML evaluation pipelines.
+      I design backend systems that efficiently process large volumes of data, support AI-driven decisions,
+      and improve model reliability and platform intelligence.
+    </p>
+    <p>
+      I also bring strong frontend/UI engineering experience with React, Angular, JavaScript, TypeScript,
+      and end-to-end system design experience using Spring Boot, Hibernate, gRPC, and microservices.
+    </p>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<div class="section">
+  <h2>Technical Expertise</h2>
+  <div class="card">
+    <div class="skill-grid">
+      <div class="skill">Java</div>
+      <div class="skill">Python</div>
+      <div class="skill">Go</div>
+      <div class="skill">AWS</div>
+      <div class="skill">Azure</div>
+      <div class="skill">GCP</div>
+      <div class="skill">Terraform</div>
+      <div class="skill">Kubernetes</div>
+      <div class="skill">Docker</div>
+      <div class="skill">CI/CD</div>
+      <div class="skill">Airflow</div>
+      <div class="skill">Kafka</div>
+      <div class="skill">gRPC</div>
+      <div class="skill">Spring Boot</div>
+      <div class="skill">Hibernate</div>
+      <div class="skill">React</div>
+      <div class="skill">Angular</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">TypeScript</div>
+      <div class="skill">Big Data</div>
+      <div class="skill">Data Pipelines</div>
+      <div class="skill">ML Evaluation</div>
+      <div class="skill">Large Volume Data Processing</div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE 2: ACCOMPLISHMENTS + CERTIFICATIONS -->
+<div class="section" id="accomplishments">
+  <h2>Accomplishments & Certifications</h2>
+  <div class="card">
+    <h3>Certifications</h3>
+    <ul>
+      <li>AWS Certified Solutions Architect – Associate</li>
+      <li>AWS AI/ML Specialty Certification</li>
+    </ul>
+    <h3 style="margin-top:25px;">Key Accomplishments</h3>
+    <ul>
+      <li>Improved distributed backend throughput by 70% through architectural optimization.</li>
+      <li>Reduced ML model evaluation time by 45% using automated pipelines in Python/Go.</li>
+      <li>Accelerated deployment flows by 40% using Docker, Kubernetes, Helm.</li>
+      <li>Improved detection of model issues by 45% through real-time analytics pipelines.</li>
+      <li>Boosted microservice responsiveness by 50% using caching + optimized Java/Go services.</li>
+      <li>Increased data freshness by 35% through advanced SQL/NoSQL + Redis optimizations.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- WHY APPLE SHOULD HIRE ME -->
+<div class="section" id="why-apple">
+  <h2>Why Apple Should Hire Me</h2>
+  <div class="card">
+    <p>
+      Apple builds products that set global standards for intelligence, privacy, quality, and user experience.
+      I bring the engineering depth, decision-making clarity, and AI/ML evaluation expertise needed to make
+      Apple Intelligence smarter, more reliable, and more impactful.
+    </p>
+    <p>
+      I combine strong distributed backend engineering with ML evaluation systems, data platform design,
+      and cloud-native scalability. I have repeatedly delivered measurable results — 70% faster performance,
+      45% shorter evaluation cycles, 35–50% improvement in system responsiveness — and I bring the same
+      rigor to every system I design.
+    </p>
+    <p>
+      With my end-to-end experience across backend, cloud, ML pipelines, data engineering, microservices,
+      and frontend ecosystems, I can help Apple AIML teams accelerate development, improve evaluation
+      frameworks, and ensure the highest quality for next-generation intelligent features.
+    </p>
+    <p style="font-weight:600; margin-top:10px;">I am ready to contribute to Apple Intelligence and help elevate the products millions rely on every day.</p>
+  </div>
+</div>
+
+<footer>
+  © 2025 Sowmya Cherukupally — Apple Application Portfolio
+</footer>
+
+</body>
+</html>
